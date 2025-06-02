@@ -10,10 +10,11 @@ This project investigates the surface water variability of **Lake Urmia between 
 
 - [Overview of Lake Urmia](#Overview-of-Lake-Urmia)
 - [Techniques Used](#techniques-used)
-- [Data Collection](#data-Collection)
+- [Data Collection](#Data-Collection)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#Acknowledgments)
 - [YouTube video explanation of code](#YouTube-Code-Runthrough)
+- [References](#References)
 
 ---
 
