@@ -12,7 +12,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 - [Overview of Lake Urmia](#Overview-of-Lake-Urmia)
 - [About SENTINEL-2 Mission](#About-SENTINEL-2-Mission)
 - [Techniques Used](#techniques-used)
-- [Data Collection](#Data-Collection)
+- [Data Collection](#📦-Data-Collection)
 - [License](#license)
 - [Acknowledgments](#Acknowledgements)
 - [YouTube video explanation of code](#YouTube-Code-Runthrough)
