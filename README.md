@@ -47,6 +47,8 @@ The following techniques and methodologies were applied:
 - **K-Means Clustering**:  
   Applied to combined NDVI + NDWI pixel vectors to segment land cover into 3 classes:  
   **Water, Vegetation, and Other Terrain**.
+  
+![How K-means works]()
 
 ---
 
