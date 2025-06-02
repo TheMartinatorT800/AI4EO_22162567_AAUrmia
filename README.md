@@ -64,7 +64,7 @@ Data was sourced and downloaded from [Sentinel Hub EO Browser](https://dataspace
 
 ### 🎯 Custom Script Used (Sentinel Hub JavaScript)
 
-To export multiple bands (B08, B04, B03) and include a data mask in 32-bit float precision, the following custom script was used in EO Browser under **Custom** > **Advanced script**:
+To export multiple bands (B08, B04, B03) and include a data mask in 32-bit float precision, the following custom script was used in EO Browser under **Custom** > **Custom script**:
 
 ```javascript
 //VERSION=3
