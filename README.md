@@ -185,6 +185,8 @@ Lake Urmia Shrivels again (no date) NASA. Available at: https://earthobservatory
 
 Modis Vegetation Index (mod 13) - NASA (no date) MODIS VEGETATION INDEX (MOD 13) ALGORITHM THEORETICAL BASIS DOCUMENT Version 3. Available at: https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf (Accessed: 20 May 2025). See section 3.3, “Avoiding Division by Zero”
 
+S2 mission (no date) SentiWiki Home. Available at: https://sentiwiki.copernicus.eu/web/s2-mission#S2Mission-MSIInstrumentS2-Mission-MSI-Instrumenttrue (Accessed: 01 June 2025). 
+
 Sentinel-Hub by Sinergise (no date a) Ndwi normalized difference water index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/ (Accessed: 21 May 2025). 
 
 Sentinel-Hub by Sinergise (no date b) Normalized difference vegetation index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/ (Accessed: 21 May 2025). 
