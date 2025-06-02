@@ -160,13 +160,15 @@ While the site suggests this is modest, these emissions highlight the growing im
 
 ## References
 
-Lake Urmia Shrivels again (no date) NASA. Available at: https://earthobservatory.nasa.gov/images/151913/lake-urmia-shrivels-again (Accessed: 02 June 2025). 
+Green Algorithms Calculator (no date) Green Algorithms. Available at: https://calculator.green-algorithms.org/ (Accessed: 02 June 2025). 
 
-Modis Vegetation Index (mod 13) - NASA (no date) MODIS VEGETATION INDEX (MOD 13) ALGORITHM THEORETICAL BASIS DOCUMENT Version 3. Available at: https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf (Accessed: 02 June 2025). See section 3.3, “Avoiding Division by Zero”
+Lake Urmia Shrivels again (no date) NASA. Available at: https://earthobservatory.nasa.gov/images/151913/lake-urmia-shrivels-again (Accessed: 20 May 2025). 
 
-Sentinel-Hub by Sinergise (no date a) Ndwi normalized difference water index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/ (Accessed: 02 June 2025). 
+Modis Vegetation Index (mod 13) - NASA (no date) MODIS VEGETATION INDEX (MOD 13) ALGORITHM THEORETICAL BASIS DOCUMENT Version 3. Available at: https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf (Accessed: 20 May 2025). See section 3.3, “Avoiding Division by Zero”
 
-Sentinel-Hub by Sinergise (no date b) Normalized difference vegetation index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/ (Accessed: 02 June 2025). 
+Sentinel-Hub by Sinergise (no date a) Ndwi normalized difference water index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndwi/ (Accessed: 21 May 2025). 
+
+Sentinel-Hub by Sinergise (no date b) Normalized difference vegetation index, Sentinel Hub custom scripts. Available at: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/ndvi/ (Accessed: 21 May 2025). 
 
 Shams Ghahfarokhi, M. and Moradian, S. (2023) ‘Investigating the causes of Lake Urmia shrinkage: Climate change or anthropogenic factors?’, Journal of Arid Land, 15(4), pp. 424–438. doi:10.1007/s40333-023-0054-z. 
 
