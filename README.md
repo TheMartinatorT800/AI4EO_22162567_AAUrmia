@@ -1,6 +1,8 @@
 # Lake Urmia Surface & Vegetation Analysis with Remote Sensing & ML
 
-This project explores the use of spectral indices (NDWI & NDVI) and unsupervised machine learning (K-Means) to monitor the **variability of Lake Urmia’s surface area** and its correlation with surrounding **vegetation coverage** over time. Sentinel-2 satellite data was processed to extract relevant land cover insights for the years **2016, 2019, 2022, and 2025**.
+This project investigates the surface water variability of **Lake Urmia between 2016 and 2025** at three-year intervals, and its potential ecological impact on surrounding vegetation, using remote sensing techniques. Leveraging **Sentinel-2 imagery**, we can compute the **Normalized Difference Water Index (NDWI)** to delineate the lake’s surface area and the **Normalized Difference Vegetation Index (NDVI)** to assess vegetation health and coverage in the surrounding basin. By masking clouds and non-land pixels using SentinelHub’s `dataMask`, we can ensure accurate spatiotemporal comparisons. For water classification, a threshold of **NDWI > 0.2** is validated through histogram analysis across years. Vegetation analysis is refined by excluding water pixels and computing mean NDVI values per year. To further explore landscape segmentation, **K-Means clustering** is applied to NDVI and NDWI datasets combined, classifying the region into water, vegetation, and bare terrain. A correlation analysis is then performed to examine how changes in lake surface area affected vegetation indices over time. The goal of this project is to provide a reproducible Earth Observation framework for monitoring inland water bodies and understanding their environmental influence using satellite-derived spectral indices.
+
+<br>
 
 ---
 
@@ -29,11 +31,27 @@ The goal of this project is to **detect and quantify surface water changes in La
 
 The following techniques and methodologies were applied:
 
-- **NDWI (Normalized Difference Water Index)**:  
-  Used to delineate water bodies using Sentinel-2 Bands B03 (Green) and B08 (NIR).
+- ### Normalized Difference Water Index (NDWI)
+
+The **Normalized Difference Water Index (NDWI)** is a spectral index used to detect and analyze surface water bodies in satellite imagery. It utilizes the reflectance properties of green light (Band B03) and near-infrared (NIR, Band B08), leveraging the fact that water strongly reflects green light while absorbing NIR. The formula used is:
+
+$$
+\text{NDWI} = \frac{\text{Green - NIR}}{\text{Green + NIR}}
+$$
+
+This formula enhances the distinction between water and non-water features. NDWI values typically range between -1 and 1. Values **above 0.2** are generally indicative of water bodies, while values below that suggest land, vegetation, or built-up areas. In this project, NDWI was calculated using Sentinel-2 imagery and a threshold of 0.2 was applied to classify water presence accurately.
+
+![NDWI Figure](Images/Repository%20figures/NDWI%20figure.png)
   
-- **NDVI (Normalized Difference Vegetation Index)**:  
-  Applied to assess surrounding vegetation using Bands B08 (NIR) and B04 (Red).
+- ### Normalized Difference Vegetation Index (NDVI)
+
+The **Normalized Difference Vegetation Index (NDVI)** is a widely used remote sensing index that quantifies vegetation health and density by measuring the difference in reflectance between the Near-Infrared (NIR) and Red bands of the electromagnetic spectrum. Vegetation strongly reflects NIR light while absorbing red light due to chlorophyll absorption during photosynthesis. NDVI is calculated using the formula:
+
+$$
+\text{NDVI} = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}
+$$
+
+For Sentinel-2 imagery, **Band 8 (B08)** is used for NIR and **Band 4 (B04)** for the Red spectrum. The resulting NDVI values range from **-1 to 1**, where values closer to 1 indicate dense, healthy vegetation, values near 0 represent bare soil or sparsely vegetated areas, and negative values typically correspond to water, snow, or clouds. This index allows for temporal analysis of vegetation changes and land cover classification across time.
 
 ![NDVI figure](Images/Repository%20figures/NDVI%20figure.png)
 
