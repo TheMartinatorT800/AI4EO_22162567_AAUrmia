@@ -35,6 +35,8 @@ The following techniques and methodologies were applied:
 - **NDVI (Normalized Difference Vegetation Index)**:  
   Applied to assess surrounding vegetation using Bands B08 (NIR) and B04 (Red).
 
+![NDVI figure](Images/Repository%20figures/NDVI%20figure.png)
+
 - **Cloud and No-Data Masking**:  
   Implemented using Sentinel Hub’s `dataMask` layer to exclude invalid pixels from analysis.
 
