@@ -15,7 +15,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 - [License](#license)
 - [Acknowledgments](#Acknowledgements)
 - [YouTube video explanation of code](#YouTube-Code-Runthrough)
-- [Assessment of the Environmental Cost of a Google Colab Project](#Assessment of the Environmental Cost of a Google Colab Project)
+- [Assessment of the Environmental Cost of a Google Colab Project](#Assessment-of-the-Environmental-Cost-of-a-Google-Colab-Project)
 - [References](#References)
 
 ---
