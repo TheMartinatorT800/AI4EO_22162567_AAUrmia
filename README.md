@@ -10,6 +10,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 ## 📌 Table of Contents
 
 - [Overview of Lake Urmia](#Overview-of-Lake-Urmia)
+- [About SENTINEL-2 Mission](#About-SENTINEL-2-Mission)
 - [Techniques Used](#techniques-used)
 - [Data Collection](#Data-Collection)
 - [License](#license)
@@ -29,6 +30,14 @@ Lake Urmia presents unique challenges for remote sensing due to its highly salin
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+
+## About SENTINEL-2 Mission
+
+Sentinel-2 is a twin-satellite mission developed by the European Space Agency (ESA) under the Copernicus Earth observation programme, designed to provide high-resolution optical imagery for monitoring land and coastal areas. The mission comprises two identical satellites, Sentinel-2A and Sentinel-2B, flying in the same orbit but phased 180 degrees apart, enabling global coverage with a revisit frequency of approximately five days at the equator. Each satellite is equipped with a single instrument, the MultiSpectral Instrument (MSI), which captures imagery in 13 spectral bands. These bands span the visible, near-infrared (VNIR), and shortwave-infrared (SWIR) portions of the electromagnetic spectrum, offering spatial resolutions of 10, 20, and 60 meters, depending on the band.
+
+The MSI operates using a push-broom scanning technique, where image data is collected line-by-line as the satellite moves forward in its orbit. Incoming sunlight reflected from the Earth’s surface is focused by a Three-Mirror Anastigmat (TMA) telescope onto two focal planes. A beam splitter separates the light between the VNIR and SWIR channels. The VNIR bands are recorded by complementary metal-oxide semiconductor (CMOS) detectors, while the SWIR bands use mercury-cadmium-telluride (MCT) detectors cooled to below 195 K for enhanced sensitivity. Both focal planes feature 12 staggered detectors arranged in a horizontal layout to cover the satellite’s 290-kilometre-wide swath, ensuring wide-area observation in a single pass.
+
+Spectral separation is achieved using stripe filters mounted over the detectors, and onboard calibration is performed using an internal diffuser system. The design of the MSI provides high radiometric and geometric accuracy, making it exceptionally useful for monitoring vegetation health, mapping water bodies, assessing land use, detecting environmental change, and responding to natural disasters. The freely available Sentinel-2 data has become an essential asset for global environmental research, resource management, and sustainable development initiatives.
 
 ## Techniques Used
 
