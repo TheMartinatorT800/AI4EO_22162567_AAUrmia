@@ -1,7 +1,4 @@
-# AI4EO_22162567_Unsupervised_Learning_Classification_at_Lake_Urmia
-
-
-# 🌍 Lake Urmia Surface & Vegetation Analysis with Remote Sensing & ML
+# Lake Urmia Surface & Vegetation Analysis with Remote Sensing & ML
 
 This project explores the use of spectral indices (NDWI & NDVI) and unsupervised machine learning (K-Means) to monitor the **variability of Lake Urmia’s surface area** and its correlation with surrounding **vegetation coverage** over time. Sentinel-2 satellite data was processed to extract relevant land cover insights for the years **2016, 2019, 2022, and 2025**.
 
