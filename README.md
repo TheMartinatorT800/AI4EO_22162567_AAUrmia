@@ -15,6 +15,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 - [License](#license)
 - [Acknowledgments](#Acknowledgements)
 - [YouTube video explanation of code](#YouTube-Code-Runthrough)
+- [Assessment of the Environmental Cost of a Google Colab Project](#Assessment of the Environmental Cost of a Google Colab Project)
 - [References](#References)
 
 ---
@@ -157,6 +158,8 @@ Although this project was conducted entirely online using Google Colab, it still
 While the site suggests this is modest, these emissions highlight the growing importance of energy-aware computing in the field of Earth Observation and data science. Efficient coding, batch processing, and the use of eco-conscious platforms (like those powered by renewable energy) can help minimize unnecessary environmental overhead. As remote sensing becomes more data-intensive, awareness of its carbon implications will be key to building sustainable scientific workflows.
 
 ![Environmental Data](Images/Repository%20figures/Environmental%20Data.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## References
 
