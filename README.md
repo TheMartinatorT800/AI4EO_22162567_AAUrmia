@@ -62,27 +62,49 @@ Data was sourced and downloaded from [Sentinel Hub EO Browser](https://dataspace
 - **2022**
 - **2025**
 
+You can inspect and download all images used for this project in the **Images** folder within this repository or by accessing the [Google Drive Folder](https://drive.google.com/drive/folders/1Uosew5NTOYnKxY6biy_UHgh0c_63GKGA?usp=share_link).
+
 ### 🎯 Custom Script Used (Sentinel Hub JavaScript)
 
-To export multiple bands (B08, B04, B03) and include a data mask in 32-bit float precision, the following custom script was used in EO Browser under **Custom** > **Custom script**:
+To export multiple bands (B08, B04, B03) and include a data mask in 32-bit float precision, the following custom scripts were used in Copernicus Browser under **Custom** > **Custom script**:
+
+#### For NDWI
 
 ```javascript
 //VERSION=3
 function setup() {
   return {
-    input: ["B08", "B04", "B03", "dataMask"],
-    output: { bands: 4, sampleType: "FLOAT32" }
+    input: ["B03", "B08", "dataMask"],
+    output: {
+      bands: 3,
+      sampleType: "FLOAT32"
+    }
   };
 }
 
 function evaluatePixel(sample) {
-  return [sample.B08, sample.B04, sample.B03, sample.dataMask];
+  return [sample.B03, sample.B08, sample.dataMask];
+}
+```
+
+#### For NDVI
+
+```javascript
+//VERSION=3
+function setup() {
+  return {
+    input: ["B08", "B04", "dataMask"],
+    output: {
+      bands: 3,
+      sampleType: "FLOAT32"
+    }
+  };
 }
 
-
-
-
-
+function evaluatePixel(sample) {
+  return [sample.B08, sample.B04, sample.dataMask];
+}
+```
 
 
 
