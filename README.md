@@ -12,7 +12,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 - [Overview of Lake Urmia](#Overview-of-Lake-Urmia)
 - [About SENTINEL-2 Mission](#About-SENTINEL-2-Mission)
 - [Techniques Used](#techniques-used)
-- [Data Collection](#📦-Data-Collection)
+- [Data Collection](#Data-Collection)
 - [License](#license)
 - [Acknowledgments](#Acknowledgements)
 - [YouTube video explanation of code](#YouTube-Code-Runthrough)
@@ -93,7 +93,7 @@ For Sentinel-2 imagery, **Band 8 (B08)** is used for NIR and **Band 4 (B04)** fo
 
 ---
 
-## 📦 Data Collection
+## Data Collection
 
 Data was sourced and downloaded from [Sentinel Hub EO Browser](https://dataspace.copernicus.eu/browser/?zoom=11&lat=45.36638&lng=12.49832&themeId=DEFAULT-THEME&visualizationUrl=https%3A//sh.dataspace.copernicus.eu/ogc/wms/a1343b61-3f53-4c92-b65c-0b432b3e7af6&datasetId=S2_L1C_CDAS&fromTime=2023-02-07T00%3A00%3A00.000Z&toTime=2023-02-07T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22&cloudCoverage=10), using **Sentinel-2 L2A** data for the following years:
 
