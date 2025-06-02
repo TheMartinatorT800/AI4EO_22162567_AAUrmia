@@ -39,6 +39,9 @@ The MSI operates using a push-broom scanning technique, where image data is coll
 
 Spectral separation is achieved using stripe filters mounted over the detectors, and onboard calibration is performed using an internal diffuser system. The design of the MSI provides high radiometric and geometric accuracy, making it exceptionally useful for monitoring vegetation health, mapping water bodies, assessing land use, detecting environmental change, and responding to natural disasters. The freely available Sentinel-2 data has become an essential asset for global environmental research, resource management, and sustainable development initiatives.
 
+---
+<br>
+
 ## Techniques Used
 
 The following techniques and methodologies were applied:
