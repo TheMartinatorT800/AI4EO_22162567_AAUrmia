@@ -37,7 +37,7 @@ Sentinel-2 is a twin-satellite mission developed by the European Space Agency (E
 
 The MSI operates using a push-broom scanning technique, where image data is collected line-by-line as the satellite moves forward in its orbit. Incoming sunlight reflected from the Earth’s surface is focused by a Three-Mirror Anastigmat (TMA) telescope onto two focal planes. A beam splitter separates the light between the VNIR and SWIR channels. The VNIR bands are recorded by complementary metal-oxide semiconductor (CMOS) detectors, while the SWIR bands use mercury-cadmium-telluride (MCT) detectors cooled to below 195 K for enhanced sensitivity. Both focal planes feature 12 staggered detectors arranged in a horizontal layout to cover the satellite’s 290-kilometre-wide swath, ensuring wide-area observation in a single pass.
 
-
+![Sentinel-2 Instrument Overview](Images/Repository%20figures/SENTINEL2.png)
 
 Spectral separation is achieved using stripe filters mounted over the detectors, and onboard calibration is performed using an internal diffuser system. The design of the MSI provides high radiometric and geometric accuracy, making it exceptionally useful for monitoring vegetation health, mapping water bodies, assessing land use, detecting environmental change, and responding to natural disasters. The freely available Sentinel-2 data has become an essential asset for global environmental research, resource management, and sustainable development initiatives.
 
