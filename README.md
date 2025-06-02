@@ -24,6 +24,8 @@ Lake Urmia, once the largest lake in the Middle East and among the world’s mos
 
 Lake Urmia presents unique challenges for remote sensing due to its highly saline and occasionally sediment-laden water. Salty water alters optical properties by reducing the spectral reflectance contrast between green and near-infrared (NIR) bands, which are critical for accurate NDWI computation. Similarly, brown water—rich in suspended solids like sediments or organic material—can absorb and scatter light in unpredictable ways. These factors diminish the reliability of traditional water detection algorithms, making it more difficult to differentiate water from land or other terrain. As a result, applying NDWI techniques in such conditions demands extra consideration, making this project both more challenging and more interesting to undertake. Despite this, the results are accurately detecting water, as can be seen upon comparing NDWI masks to the full size true colour images, as well as the Copernicus' NDWI Layer.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Techniques Used
@@ -68,6 +70,8 @@ For Sentinel-2 imagery, **Band 8 (B08)** is used for NIR and **Band 4 (B04)** fo
   **Water, Vegetation, and Other Terrain**.
   
 ![K-Means Clustering](Images/Repository%20figures/K-Means%20figure.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -125,16 +129,25 @@ function evaluatePixel(sample) {
 ```
 Due to the timing of this project, the three-year intervals selected are not perfectly uniform. While observations of Lake Urmia’s shrinkage date back to the 1970s, high-resolution satellite data is only available from 2015 onwards, coinciding with the operational start of the Sentinel-2 mission. Consequently, this study focuses on the years 2016, 2019, 2022, and 2025, selecting the clearest images available for the month of November to minimize seasonal variation. However, since this project was conducted in May 2025, no November 2025 imagery was yet available. As a result, imagery from May 2025 was used instead. While this approach offers the greatest possible temporal separation from the 2022 dataset, it does introduce potential seasonal effects that must be considered when interpreting the results for 2025.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
 Distributed under the MIT License. `See LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## YouTube Code Runthrough
 
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Acknowledgements
 
+This project was completed as part of the GEOL0069 - Artificial Intelligence for Earth Observation (AI4EO) module at University College London (UCL). I would like to extend my sincere thanks to Dr. Michel Tsamados and Weibin Chen for their expert guidance and instruction throughout the course.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## References
@@ -152,6 +165,8 @@ Shams Ghahfarokhi, M. and Moradian, S. (2023) ‘Investigating the causes of Lak
 Welcome to geol0069 AI for earth observation (no date) Welcome to GEOL0069 AI for Earth Observation - GEOL0069 Guide Book. Available at: https://cpomucl.github.io/GEOL0069-AI4EO/intro.html (Accessed: 02 June 2025).
 
 Yan, D. et al. (2017) ‘Analysis of the use of ndwigreen and Ndwired for inland water mapping in the Yellow River basin using landsat-8 oli imagery’, Remote Sensing Letters, 8(10), pp. 996–1005. doi:10.1080/2150704x.2017.1341664. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
