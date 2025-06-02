@@ -183,7 +183,7 @@ Green Algorithms Calculator (no date) Green Algorithms. Available at: https://ca
 
 Lake Urmia Shrivels again (no date) NASA. Available at: https://earthobservatory.nasa.gov/images/151913/lake-urmia-shrivels-again (Accessed: 20 May 2025). 
 
-Modis Vegetation Index (mod 13) - NASA (no date) MODIS VEGETATION INDEX (MOD 13) ALGORITHM THEORETICAL BASIS DOCUMENT Version 3. Available at: https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf (Accessed: 20 May 2025). See section 3.3, “Avoiding Division by Zero”
+Modis Vegetation Index (mod 13) - NASA (no date) MODIS VEGETATION INDEX (MOD 13) ALGORITHM THEORETICAL BASIS DOCUMENT Version 3. Available at: https://modis.gsfc.nasa.gov/data/atbd/atbd_mod13.pdf (Accessed: 20 May 2025).
 
 S2 mission (no date) SentiWiki Home. Available at: https://sentiwiki.copernicus.eu/web/s2-mission#S2Mission-MSIInstrumentS2-Mission-MSI-Instrumenttrue (Accessed: 01 June 2025). 
 
