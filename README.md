@@ -48,7 +48,7 @@ The following techniques and methodologies were applied:
   Applied to combined NDVI + NDWI pixel vectors to segment land cover into 3 classes:  
   **Water, Vegetation, and Other Terrain**.
   
-![How K-means works]()
+![How K-means works](Images/Repository figures/K-Means figure.png)
 
 ---
 
