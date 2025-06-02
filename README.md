@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # Lake Urmia Surface & Vegetation Analysis with Remote Sensing & ML
 
 This project investigates the surface water variability of **Lake Urmia between 2016 and 2025** at three-year intervals, and its potential ecological impact on surrounding vegetation, using remote sensing techniques. Leveraging **Sentinel-2 imagery**, we can compute the **Normalized Difference Water Index (NDWI)** to delineate the lake’s surface area and the **Normalized Difference Vegetation Index (NDVI)** to assess vegetation health and coverage in the surrounding basin. By masking clouds and non-land pixels using SentinelHub’s `dataMask`, we can ensure accurate spatiotemporal comparisons. For water classification, a threshold of **NDWI > 0.2** is validated through histogram analysis across years. Vegetation analysis is refined by excluding water pixels and computing mean NDVI values per year. To further explore landscape segmentation, **K-Means clustering** is applied to NDVI and NDWI datasets combined, classifying the region into water, vegetation, and bare terrain. A correlation analysis is then performed to examine how changes in lake surface area affected vegetation indices over time. The goal of this project is to provide a reproducible Earth Observation framework for monitoring inland water bodies and understanding their environmental influence using satellite-derived spectral indices.
@@ -5,7 +6,7 @@ This project investigates the surface water variability of **Lake Urmia between 
 <br>
 
 ---
-<a name="readme-top"></a>
+
 ## 📌 Table of Contents
 
 - [Overview of Lake Urmia](#Overview-of-Lake-Urmia)
